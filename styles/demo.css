@@ -1,0 +1,23 @@
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 18px;
+  color: Tomato;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: MediumSeaGreen;
+  padding: 50px;
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+footer {
+  color: seagreen;
+}/*# sourceMappingURL=demo.css.map */

@@ -1,0 +1,35 @@
+// Header variable
+$header-bgcolor: MediumSeaGreen;
+$header-textcolor: white;
+$header-fontsize: 20px;
+$header-textalign: center;
+
+$myFont: Helvetica, sans-serif;
+$myColor: Tomato;
+$myFontSize: 18px;
+$myWidth: 680px;
+
+body {
+  font-family: $myFont;
+  font-size: $myFontSize;
+  color: $myColor;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: $header-bgcolor;
+  padding: 50px;
+  text-align: $header-textalign;
+  color: $header-textcolor;
+  font-size: $header-fontsize;
+}
+
+footer {
+  $myColor: seagreen;
+  color: $myColor;
+}
